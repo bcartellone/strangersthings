@@ -1,0 +1,14 @@
+.user-posts {
+  display: flex;
+  justify-content: space-between;
+}
+.indivPost {
+  margin-bottom:  10px;
+  padding-left: 10px;
+  border-color: black;
+  background-color: rgb(221, 221, 221);
+  height: 200px;
+  width: 400px;
+  box-shadow: 5px 3px 3px rgb(92, 92, 92);
+}
+
