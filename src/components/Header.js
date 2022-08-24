@@ -7,16 +7,22 @@ const Header = () => {
     const navigate = useNavigate();
     return (
         <body>
-        <div className='navToolsMain'>
-            <h1>Stranger's Things</h1>
-        <div className='navToolsSub'>
-            <h2 onClick={()=> navigate('/')} >Home</h2>
+            <div className='navToolsMain'>
+                <div className='navToolsTitle'>
+                    <h1>Stranger's Things</h1>
+                        <div className='navToolsSub'>
+                        <h2 onClick={()=> navigate('/')} >Home</h2>
 
-            <h2 onClick={()=> navigate('/Posts')} >Posts</h2>
+                        <h2 onClick={()=> navigate('/Posts')} >Posts</h2>
 
-            <h2 onClick={()=> navigate('/Login')} >Login</h2>
-        </div>    
-        </div>
+                        <h2 onClick={()=> navigate('/Register')} >Register</h2>
+
+                        <h2 onClick={()=> navigate('/Login')} >Login</h2>
+
+                        <h2 onClick={()=> navigate('/create')} >Create Post</h2>
+                        </div>    
+                </div>
+            </div>
         </body>
     )
 };

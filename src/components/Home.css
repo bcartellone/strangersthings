@@ -2,3 +2,20 @@
     display: flex;
     justify-content: center;
 }
+
+.subTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonMain {
+    display: flex;
+    justify-content: center;
+}
+
+.profButton {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+}
